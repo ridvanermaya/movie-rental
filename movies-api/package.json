@@ -2,8 +2,9 @@
   "name": "movies-api",
   "version": "1.0.0",
   "description": "A Restful API that provides information about movies.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ridvanermaya/movie-rental/issues"
   },
-  "homepage": "https://github.com/ridvanermaya/movie-rental#readme"
+  "homepage": "https://github.com/ridvanermaya/movie-rental#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
